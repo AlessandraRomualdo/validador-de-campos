@@ -1,0 +1,16 @@
+{
+  "name": "validador-de-campos",
+  "version": "1.0.0",
+  "description": "Um validador usando a lib validator",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite --open"
+  },
+  "author": "Ale",
+  "license": "ISC",
+  "dependencies": {
+    "validator": "^13.9.0",
+    "vite": "^4.2.0"
+  },
+  "type": "module"
+}

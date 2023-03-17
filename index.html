@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Validador de Campos</title>
+</head>
+<body>
+  <main>
+    <h1>Validador de Campos</h1>
+
+    <form action="">
+      <input type="text" id="input">
+
+      <select name="campo" id="select">
+        <option value="cpf">CPF</option>
+        <option value="email">EMAIL</option>
+        <option value="date">Data</option>
+        <option value="fone">Fone</option>
+        <option value="number">Number</option>
+      </select>
+
+      <button id="buttonVality">Validar</button>
+      <button type="reset">Limpar</button>
+
+    </form>
+    <p id="result">...</p>
+  </main>
+  <script src="src/main.js" type="module"></script>
+</body>
+</html>
