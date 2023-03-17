@@ -4,7 +4,8 @@
   "description": "Um validador usando a lib validator",
   "main": "index.js",
   "scripts": {
-    "dev": "vite --open"
+    "dev": "vite --open",
+    "build": "vite build"
   },
   "author": "Ale",
   "license": "ISC",
